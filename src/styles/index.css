@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.navbar-brand {
+    color: white;
+}
+.navbar-nav .nav-link {
+    color: gray;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+.jumbotron {
+    padding: 30px;
+}
+.card {
+    width: 18rem; 
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerText {
+    color: white;
+}
