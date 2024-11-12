@@ -3,9 +3,11 @@ import { NavBar } from "./navBar";
 import { Footer } from "./footer";
 import { Jumbotron } from "./jumbotron";
 import { Cards } from "./cards";
+import rigoImage from "../../img/rigo-baby.jpg";
+
+
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
@@ -13,11 +15,11 @@ const Home = () => {
 		<div>
 		<NavBar/>
 		<Jumbotron/>
-		<div className="d-flex justify-content-center ">
-	    <Cards/>
-	    <Cards/>
-	    <Cards/>
-	    <Cards/>
+		<div className="d-lg-flex justify-content-center p-3">
+	    <Cards title="zapatillas" description="ldkfdkjsnfkjdnfd" image={rigoImage}/>
+	    <Cards title="zapatillas" description="ldkfdkjsnfkjdnfd" image={rigoImage}/>
+	    <Cards title="zapatillas" description="ldkfdkjsnfkjdnfd" image={rigoImage}/>
+	    <Cards title="zapatillas" description="ldkfdkjsnfkjdnfd" image={rigoImage}/>
 		</div>
 		<Footer/>
 		</div>

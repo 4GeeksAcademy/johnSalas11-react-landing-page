@@ -1,22 +1,20 @@
 import React from "react";
 
-export const Cards = () => {
+export const Cards = (props) => {
     return (
         <div>
-            <div className="row">
-                <div className="col">
-                    <div className="card">
-                        <img src="https://via.placeholder.com/286x180" className="card-img-top" alt="Card image" />
-                        <div className="card-body ">
-                            <h5 className="card-title">Card Title</h5>
-                            <p className="card-text">
-                                This is a brief description for the card. It gives a quick overview of the content.
-                            </p>
-                            <a href="#" className="btn btn-primary">
-                                Go somewhere
-                            </a>
-                        </div>
-                    </div>
+            <div className="card bg-light p-2 text-dark bg-opacity-20">
+                <img src={props.image} className="card-img-top" alt="Card image" />
+                <div className="card-body ">
+                    <h5 className="card-title">
+                        {props.title}
+                        </h5>
+                    <p className="card-text">
+                        {props.description}
+                    </p>
+                    <a href="#" className="btn btn-primary">
+                        Go somewhere
+                    </a>
                 </div>
             </div>
         </div>

@@ -10,29 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.navbar-brand {
-    color: white;
+body {
+    background: gainsboro;
 }
-.navbar-nav .nav-link {
-    color: gray;
-}
+.navbar {
 
-.navbar-nav .nav-link.active {
-    color: #ffffff;
-}
-.jumbotron {
-    padding: 30px;
-}
+    padding: 10px 0;
+  }
+  
+  .container-half {
+    border-radius: 7rem;
+    background: white;
+    width: 50%;          
+    margin-left: 20rem;       
+  }
+  .contact-btn {
+    margin-left: 12.3rem;
+    background-color: #ffffff;
+    color: #787878;
+    border-radius: 20px;
+    padding: 5px 20px;
+  }
+  
+  .contact-btn:hover {
+    background-color: #8f5fe4;
+  }
 .card {
-    width: 18rem; 
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border-bottom-right-radius: 2.5rem;
+    width: 18.1rem; 
+    margin: 0.7rem;
     text-align: center;
 }
 
 .footerText {
-    color: white;
+    color: rgb(255, 255, 255);
 }
