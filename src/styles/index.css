@@ -6,7 +6,7 @@ body {
   height: 30rem;
 }
 .card {
-  max-width: 500px;
+  max-width: 500rem;
   border-bottom-right-radius: 2.5rem;
   width: 18.1rem;
   justify-content: center;
@@ -17,12 +17,12 @@ body {
   max-height: 400rem;
 }
 
-.card-btn {
-  background: gainsboro;
+.btn {
+  background:#e9ecef;
   border-radius: 20rem;
 }
 
-.card-btn:hover {
+.btn:hover{
   background-color: #fffefe;
 }
 
