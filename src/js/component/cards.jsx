@@ -1,19 +1,19 @@
 import React from "react";
 
-export const Cards = (props) => {
+export const Cards = ({image, title, description}) => {
     return (
         <div>
             <div className="container-fluid">
             <div className="card bg-light bg-opacity-20 my-5">
-                <img src={props.image} className="card-img-top" alt="Card image" />
+                <img src={image} className="cardImg card-img-top" alt="Card image" />
                 <div className="card-body ">
                     <div className="boton text-center">
                         <a className="card-title btn card-btn">
-                            {props.title}
+                            {title}
                         </a>
                     </div>
                     <p className="card-text pb-4">
-                        {props.description}
+                        {description}
                     </p>
                 </div>
             </div>
