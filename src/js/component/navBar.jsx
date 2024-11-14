@@ -3,25 +3,27 @@ import React from "react";
 export const NavBar = () => {
     return (
         <div>
-             <nav className="navbar navbar-expand-lg navbar-success p-2 text-dark bg-opacity-10">
-      <div className="container-half">
-          <ul className="navbar-nav justify-content-center mb-lg-0 ">
-            <li className="nav-item pe-4">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li className="nav-item pe-4">
-              <a className="nav-link" href="#">About</a>
-            </li>
-            <li className="nav-item pe-4">
-              <a className="nav-link" href="#">Solutions</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Products</a>
-            </li>
-          </ul>
-      </div>
-          <button className="btn btn-  contact-btn">Contact</button>
-    </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto ">
+                <li class="nav-item ">
+                  <a class="nav-link active  " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
         </div>
     )
 }

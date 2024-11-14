@@ -13,35 +13,29 @@
 body {
     background: gainsboro;
 }
-.navbar {
+  .navbar {
+  }
+ .jumbotron {
+  width: auto;
+  height: 30rem;
+  }
 
-    padding: 10px 0;
-  }
-  
-  .container-half {
-    border-radius: 7rem;
-    background: white;
-    width: 50%;          
-    margin-left: 20rem;       
-  }
-  .contact-btn {
-    margin-left: 12.3rem;
-    background-color: #ffffff;
-    color: #787878;
-    border-radius: 20px;
-    padding: 5px 20px;
-  }
-  
-  .contact-btn:hover {
-    background-color: #8f5fe4;
-  }
-.card {
+ .card {
+    
     border-bottom-right-radius: 2.5rem;
     width: 18.1rem; 
-    margin: 0.7rem;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card-btn {
+  background:  gainsboro;
+  border-radius: 20rem;
+}
+
+.card-btn:hover{
+  background-color: #fffefe;
 }
 
 .footerText {
-    color: rgb(255, 255, 255);
+    color: #fffefe;
 }
